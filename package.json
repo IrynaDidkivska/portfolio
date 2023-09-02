@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
+  "homepage": "https://IrynaDidkivska/goit-react-hw-08-phonebook/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

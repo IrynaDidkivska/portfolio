@@ -7,10 +7,19 @@ import { Contact } from "./pages/Contact/Contact";
 import { Projects } from "./pages/Projects/Projects";
 import { TechStack } from "./pages/TechStack/TechStack";
 import { Footer } from "./components/Footer/Footer";
+import { darkTheme, ligthTheme } from "./styles/theme";
+import { ThemeProvider } from "styled-components";
+import { useState } from "react";
+import { Global } from "./styles/Global";
 
 function App() {
+  const [toggleTheme, setToggleThem] = useState("light");
+  const switchTheme = () => {
+    toggleTheme === "light" ? setToggleThem("dark") : setToggleThem("light");
+  };
   return (
-    <>
+    <ThemeProvider theme={toggleTheme === "light" ? ligthTheme : darkTheme}>
+      <button onClick={switchTheme}>Toggle theme</button>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -21,8 +30,8 @@ function App() {
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
-    </>
+      <Footer /> <Global />
+    </ThemeProvider>
   );
 }
 

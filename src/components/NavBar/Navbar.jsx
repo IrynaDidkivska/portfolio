@@ -1,7 +1,5 @@
-import React from "react";
-
-import { StyledList } from "./Navbar.styled";
 import { Link } from "../../styles/Link";
+import { StyledList } from "./Navbar.styled";
 
 export const Navbar = () => {
   return (
@@ -12,9 +10,6 @@ export const Navbar = () => {
         </li>
         <li>
           <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/tech">Tech Stack</Link>
         </li>
         <li>
           <Link to="/projects">Projects</Link>

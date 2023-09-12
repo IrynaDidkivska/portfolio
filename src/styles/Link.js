@@ -10,7 +10,13 @@ export const Link = styled(NavLink)`
   line-height: 1.3;
   cursor: pointer;
   transition: ${({ theme }) => theme.transition};
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     color: ${({ theme }) => theme.colors.accent};
+    border: 3px solid #e70faa;
+    border-radius: 5px;
+    height: 100%;
+    padding: 5px 14px;
   }
 `;

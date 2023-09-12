@@ -7,6 +7,7 @@ export const StyledFooterWrapperSoc = styled.div`
   gap: 48px;
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-right: 32px;
   border-bottom: 2px solid #666666;
 `;
 

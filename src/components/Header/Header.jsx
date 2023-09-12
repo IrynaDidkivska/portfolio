@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Socials } from "../Socials/Socials";
 import { StyledHeader } from "./Header.styled";
 import { Navbar } from "../NavBar/Navbar";

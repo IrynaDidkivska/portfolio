@@ -1,8 +1,18 @@
+import { StyledSubtitle, StyledTitle } from "../../styles/Title";
+import { textFromLeft } from "../../styles/animations";
+
 export const Projects = () => {
   return (
     <div>
-      <h2>Projects</h2>
-      <p>Things I’ve built so far</p>
+      <StyledTitle>Projects</StyledTitle>
+      <StyledSubtitle
+        initial="hidden"
+        whileInView="visible"
+        custom={1}
+        variants={textFromLeft}
+      >
+        Things I&apos;ve built so far
+      </StyledSubtitle>
       <ul>
         <li></li>
         <li></li>

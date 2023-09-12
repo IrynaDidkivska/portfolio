@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 import { motion } from "framer-motion";
 export const MainWrapper = styled.section`
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   justify-content: space-between;
   align-items: center;

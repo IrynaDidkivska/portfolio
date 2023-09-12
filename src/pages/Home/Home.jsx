@@ -8,23 +8,7 @@ import {
 } from "./Home.styled";
 import photo from "../../assets/img/C32D7A0C-B2A2-46A7-8C4B-F65AB447D1AC_1_201_a.jpg";
 import { TechStack } from "../TechStack/TechStack";
-
-const textFromLeft = {
-  hidden: { opacity: 0, x: "-100%" },
-  visible: (custom) => ({
-    opacity: 1,
-    x: 0,
-    transition: { duration: 0.3, delay: custom * 0.3 },
-  }),
-};
-const textFromBottom = {
-  hidden: { opacity: 0, y: "100%" },
-  visible: (custom) => ({
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.3, delay: custom * 0.3 },
-  }),
-};
+import { textFromBottom, textFromLeft } from "../../styles/animations";
 
 export const Home = () => {
   return (

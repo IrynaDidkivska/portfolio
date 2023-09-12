@@ -1,4 +1,3 @@
-import React from "react";
 import { Socials } from "../Socials/Socials";
 import { Navbar } from "../NavBar/Navbar";
 import {

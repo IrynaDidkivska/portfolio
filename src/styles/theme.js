@@ -8,16 +8,14 @@ export const ligthTheme = {
     accent: "#018C0F",
   },
   background: {
-    main: "#fff",
     light: "#FFFFFF",
     backgroundIcon: "#666666",
-    darl: "#191919",
     accentbgc: "#D7FFE0",
     gradientHeading: "linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));",
   },
   title: {
     main: "58px",
-    secondary: "48px",
+    secondary: "42px",
   },
   spacing: (value) => `${value * 4}px`,
   radius: "8px",
@@ -26,7 +24,6 @@ export const ligthTheme = {
 
 export const darkTheme = {
   colors: {
-    light: "#FFFFFF",
     mainLigth: "#666666",
     mainDark: "#A7A7A7",
     headingLigth: "#42446E",
@@ -34,16 +31,14 @@ export const darkTheme = {
     accent: "#018C0F",
   },
   background: {
-    main: "#aaa",
-    light: "#FFFFFF",
     backgroundIcon: "#666666",
-    darl: "#191919",
+    dark: "#191919",
     accentbgc: "#D7FFE0",
     gradientHeading: "linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));",
   },
   title: {
     main: "58px",
-    secondary: "48px",
+    secondary: "42px",
   },
   spacing: (value) => `${value * 4}px`,
   radius: "8px",

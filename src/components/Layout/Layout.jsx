@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Header } from "../Headre/Header";
+import { Header } from "../Header/Header";
 import { Container } from "../../styles/Container";
 import { styled } from "styled-components";
 

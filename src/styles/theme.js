@@ -13,6 +13,7 @@ export const ligthTheme = {
     accentbgc: "#D7FFE0",
     gradientHeading: "linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));",
   },
+  boxShadow: "2px 2px 100px 0px rgba(0, 0, 0, 0.2)",
   title: {
     main: "58px",
     secondary: "42px",

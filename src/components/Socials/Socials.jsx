@@ -1,4 +1,3 @@
-import React from "react";
 import { StyledLink, StyledSocials } from "./Socials.styled";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { BsTwitter } from "react-icons/bs";

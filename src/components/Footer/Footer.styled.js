@@ -4,17 +4,17 @@ export const StyledFooterWrapperSoc = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 48px;
+  gap: 50px;
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-right: 32px;
+  padding-right: 30px;
   border-bottom: 2px solid #666666;
 `;
 
 export const StyledFooterAddressList = styled.ul`
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 50px;
 `;
 export const StyledFooterAddressLink = styled.a`
   font-family: inherit;
@@ -34,6 +34,7 @@ export const StyledFooterWrapper = styled.div`
   justify-content: space-between;
   gap: 10px;
   margin-top: 40px;
+  margin-bottom: 40px;
 `;
 export const StyledFooterText = styled.p`
   font-family: inherit;

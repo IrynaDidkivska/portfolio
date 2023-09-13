@@ -1,5 +1,7 @@
-import React from "react";
+import { StyledContactTitle } from "./Contact.styled";
 
 export const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <StyledContactTitle>For any questions please contact me</StyledContactTitle>
+  );
 };

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const StyledTitle = styled.h2`
+  margin-bottom: 5px;
   padding: 5px;
   color: ${({ theme }) => theme.colors.headingLigth};
   font-family: Poppins;
@@ -12,6 +13,7 @@ export const StyledTitle = styled.h2`
 `;
 
 export const StyledSubtitle = styled(motion.h3)`
+  margin-bottom: 5px;
   padding: 5px;
   color: ${({ theme }) => theme.colors.headingLigth};
   font-size: 30px;
@@ -21,6 +23,7 @@ export const StyledSubtitle = styled(motion.h3)`
 `;
 
 export const StyledText = styled.p`
+  text-align: left;
   padding: 5px;
   font-size: 24px;
   line-height: 1.44;

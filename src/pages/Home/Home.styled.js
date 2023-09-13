@@ -5,6 +5,7 @@ export const MainWrapper = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 50px;
 `;
 
 export const StyledHomeWrapper = styled(motion.div)`

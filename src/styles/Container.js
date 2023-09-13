@@ -17,3 +17,11 @@ export const Container = styled.div`
     padding-left: 32px;
   }
 `;
+
+export const MainWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+`;

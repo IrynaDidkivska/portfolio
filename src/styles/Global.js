@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
  color: ${({ theme }) => theme.colors.mainLigth};
+ text-align: center;
 }
 
 @font-face {

@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import { styled } from "styled-components";
 
 export const Link = styled(NavLink)`
+  padding: 5px 15px;
   color: ${({ theme }) => theme.colors.mainLigth};
   font-family: DM Sans;
   font-size: 20px;
@@ -17,6 +18,5 @@ export const Link = styled(NavLink)`
     border: 3px solid #e70faa;
     border-radius: 5px;
     height: 100%;
-    padding: 5px 14px;
   }
 `;

@@ -11,6 +11,7 @@ import { ThemeProvider } from "styled-components";
 import { useState } from "react";
 import { Global } from "./styles/Global";
 import { FaMoon, FaSun } from "react-icons/fa";
+import { Container } from "./styles/Container";
 
 function App() {
   const [toggleTheme, setToggleThem] = useState("light");
@@ -32,7 +33,11 @@ function App() {
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer /> <Global />
+      <Container>
+        <Footer />
+      </Container>
+
+      <Global />
     </ThemeProvider>
   );
 }

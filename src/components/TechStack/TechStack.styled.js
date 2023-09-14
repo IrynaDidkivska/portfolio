@@ -15,10 +15,10 @@ export const StyledIcon = styled.li`
 `;
 
 export const StyledSubtitleTech = styled(StyledSubtitle)`
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 `;
 
 export const StyledTextTech = styled(StyledText)`
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 `;

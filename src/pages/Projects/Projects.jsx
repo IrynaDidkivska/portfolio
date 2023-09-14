@@ -6,15 +6,13 @@ import {
   StyledList,
   StyledThumb,
   StyledWrapperLink,
-} from "./Project.styled.js";
-import { HiLink } from "react-icons/hi";
-import { AiFillGithub } from "react-icons/ai";
-import {
   StyledLink,
   StyledTech,
   StyledSpan,
   StyledSubtitlePr,
-} from "./Project.styled.js";
+} from "./Projects.styled";
+import { HiLink } from "react-icons/hi";
+import { AiFillGithub } from "react-icons/ai";
 import { StyledText } from "../../styles/Title.js";
 import rentcar from "../../assets/img/rentcar.jpg";
 import bookshelf from "../../assets/img/bookshelf.jpg";

@@ -3,20 +3,10 @@ import { Link } from "../../styles/Link.js";
 import { StyledSubtitle } from "../../styles/Title.js";
 
 export const StyledList = styled.ul`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: 373px 373px;
 `;
 export const StyledItems = styled.li`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  width: 373px;
   border-radius: 20px;
   box-shadow: ${({ theme }) => theme.boxShadow};
 `;

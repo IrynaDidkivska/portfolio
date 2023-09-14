@@ -23,5 +23,5 @@ export const MainWrapper = styled.section`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 `;

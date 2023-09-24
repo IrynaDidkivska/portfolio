@@ -5,7 +5,9 @@ import { Navbar } from "../NavBar/Navbar";
 export const Header = () => {
   return (
     <StyledHeader>
-      <StyledLogo>ID&#58;&#41;</StyledLogo>
+      <StyledLogo>
+        ID <span>:)</span>
+      </StyledLogo>
       <Navbar />
       <Socials />
     </StyledHeader>

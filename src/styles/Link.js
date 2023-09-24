@@ -9,6 +9,7 @@ export const Link = styled(NavLink)`
   font-style: normal;
   font-weight: 500;
   line-height: 1.3;
+  border: 3px solid transparent;
   cursor: pointer;
   transition: ${({ theme }) => theme.transition};
   &:hover,

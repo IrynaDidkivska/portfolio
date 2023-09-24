@@ -16,7 +16,7 @@ export const StyledLink = styled(Link)`
   height: 33px;
   border-radius: 50%;
   transition: ${({ theme }) => theme.transition};
-  color: ${({ theme }) => theme.colors.light};
+  color: ${({ theme }) => theme.colors.iconColor};
   background-color: ${({ theme }) => theme.background.backgroundIcon};
   &:hover {
     color: ${({ theme }) => theme.colors.accent};

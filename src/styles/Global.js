@@ -9,6 +9,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
  color: ${({ theme }) => theme.colors.mainLigth};
  text-align: center;
+ background: ${({ theme }) => theme.background.main};;
+  transition: ${({ theme }) => theme.transition};
 }
 
 @font-face {
